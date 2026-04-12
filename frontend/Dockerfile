@@ -1,4 +1,4 @@
-FROM node:20.1.0 
+FROM node:latest
 
 # Set working directory to /app 
 WORKDIR /app
