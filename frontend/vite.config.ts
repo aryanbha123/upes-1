@@ -11,7 +11,7 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] })
   ],
   server: {
-    allowedHosts: 'upes.velocify.in',
+    allowedHosts: ['upes.velocify.in'],
     port: 6000,
     host: true
   }
